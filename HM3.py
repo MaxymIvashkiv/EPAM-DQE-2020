@@ -68,9 +68,7 @@ while char_position < word_len:
         print('Choose right option')
         continue
 if char_position == word_len:
-    guessed_word = ''
-    for letter in word_board:
-        guessed_word += letter
+    guessed_word = words[0]
     if guessed_word == word:
         print(f'I attempted {attemp} times and guessed. "{guessed_word}" should be your word.')
     else:
