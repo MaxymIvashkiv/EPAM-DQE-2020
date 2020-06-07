@@ -1,8 +1,10 @@
+import argparse, csv, json, os
 
 parser = argparse.ArgumentParser(description="Convert csv file to json.")
 
 parser.add_argument("-csv", type=str, help="Path to csv",)
 
+parser.add_argument("-json", type=str, help="<Full path and name of JSON file")
 
 arguments = parser.parse_args()
 
