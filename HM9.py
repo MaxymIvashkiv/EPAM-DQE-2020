@@ -1,4 +1,7 @@
 import sqlite3, csv, os, datetime, argparse
+""""
+Щоб запустити код необхідно завантажити tasks.csv та projects.csv з мого гітхабу 
+"""
 
 parser = argparse.ArgumentParser(description="Display all tasks for specified project")
 
